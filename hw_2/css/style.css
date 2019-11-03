@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Lato';
+    background: #fff;
+}
+
+h2 {
+    color: #3677fd;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.about, .expert, .work, .clients, .site-footer{
+    padding: 5%;
+}
+
+.clients, .expert {
+    background: #f1f8ff;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; 
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+}
+
+/* HEADER */
+
+.site-header {
+    width: 100%;
+    height: 72px;
+    background: #194277;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-block1 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 51px;
+}
+
+.header-block2 input[type="button"]{
+    width: 112px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #ffffff;
+    color: #194277;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* MAIN-SECTION */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+}
+
+.radius-div{
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 auto; 
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
+}
+
+.description {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    text-align: center;
+    width: 60%;
+}
+
+.description-block {
+    padding-bottom: 7%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+}
+
+.description-small {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.4px;
+    padding-top: 2%;
+}
+
+.button-hire-me input[type="button"]{
+    width: 204px;
+    height: 55px;
+    border-radius: 28px;
+    border: 0px;
+    background-color: #ffffff;
+    color: #3695ff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.arrow {
+    opacity: 0.4;
+}
+
+/* EXPERT CONTAINER */
+
+.expert-container{
+    width: 30%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+}
+
+.expert-container:nth-child(-n+3) {
+    margin-bottom: 5%;
+}
+
+.expert h3 {
+    color: #3677fd;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+
+.expert-image {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #b7c0c9;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 62px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WORK CONTAINER */
+
+.work-section, .expert-section {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.work-container {
+    width: 31%;
+    height: 269px;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    background: #f4f4f4;
+    margin-bottom: 3%;
+}
+
+.work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-container:nth-child(-n+3) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* CLIENT CONTAINER */
+
+.clients-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: grayscale(100%);
+    opacity: 0.25;
+}
+
+.ms-logo {
+    width: 192px;
+    height: 41px;
+}
+
+.samsung-logo{
+    width: 185px;
+    height: 28px;
+}
+
+.ibm-logo {
+    width: 140px;
+    height: 52px;
+}
+
+.google-logo {
+    width: 170px;
+    height: 56px;
+}
+
+/* FOOTER */
+
+.site-footer {
+    max-width: 2000px;
+    background-color:#3695ff;
+    background-image: linear-gradient(45deg, #3695ff 20%, #469dff 20% 40%, #4098ff 40% 60%, #3c89fe 60% 80%, #357afd 80%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-block1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    margin-right: 51px;
+}
